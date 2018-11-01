@@ -1,2 +1,2 @@
 # dore.tech
-GH Pages Hosting test. 
+A Personal Domain Repository for CSS and JS
