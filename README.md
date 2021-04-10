@@ -1,4 +1,4 @@
-## dore.tech
+## Dore.tech
 --------------------------------------------------------
 A Personal Domain Repository for CSS and JS. 
 
