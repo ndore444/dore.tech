@@ -3,5 +3,12 @@ A Personal Domain Repository for CSS and JS.
 
 Look forward to new updates! 
 
- [_Also heres the link for your mil email haha._](https://web-cols04.mail.mil/owa)
+## Useful Military Links:
 
+[Military Email](https://web-cols04.mail.mil/owa)
+
+[SRTS](https://army.deps.mil/army/cmds/usarc_88RSC_PER2/SRTS/default.aspx)
+
+[ARB/SelfService](https://selfservice.rcms.usar.army.mil/)
+
+### JKO Script
