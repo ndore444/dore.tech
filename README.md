@@ -2,7 +2,7 @@
 A Personal Domain Repository for CSS and JS. 
 Look forward to new updates! 
 
-##Useful Military Links:
+## Useful Military Links:
 
 [Military Email](https://web-cols04.mail.mil/owa)
 
