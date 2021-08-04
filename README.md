@@ -1,8 +1,8 @@
 ## Dore.tech
 --------------------------------------------------------
-A Personal Domain Repository for CSS and JS. 
+A Personal Domain Repository for code. 
 
-Look forward to new updates! 
+Look forward to new content updates! 
 
 ## Useful Military Links:
 
