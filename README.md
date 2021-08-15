@@ -38,6 +38,12 @@ Assignments from the Data Structures class at UCD, a good collection of commonly
 
 [DataStruct GitHub Link](https://github.com/ndore444/DataStructures)
 
+### Assembly
+
+Homework projects from the Assembly class at UCD, later homework is complex and uses datastructures, and memory management. 
+
+[Assembly Github Link](https://github.com/ndore444/Assembly)
+
 ### SehnSucht
 
 A personally developed video game engine, drawing from LimeOats' game engine, and using assets from CaveStory. Currently will not run, due to lacking development in the enemies class. 
