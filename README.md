@@ -1,5 +1,5 @@
 ## Dore.tech
---------------------------------------------------------
+
 A Personal Domain Repository for code. 
 
 Look forward to new content updates! 
@@ -20,4 +20,8 @@ Look forward to new content updates!
 --------------------------------------------------------
 ## Code 
 
-
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
