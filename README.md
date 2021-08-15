@@ -20,12 +20,6 @@ Look forward to new content updates!
 --------------------------------------------------------
 ## Code 
 
-```
-function test() {
-  console.log("This is an example of a code snippit.");
-}
-```
-
 ### Object Oriented
 
 A collection of assignments from the ObjecteOriented class at UCD (Univerisity of Colorado Denver). A couple good examples of larger scale C++ projects
