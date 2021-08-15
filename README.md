@@ -25,7 +25,18 @@ function test() {
   console.log("This is an example of a code snippit.");
 }
 ```
-###SehnSucht
-A personally developed video game engine, drawing from LimeOats' game engine, and using assets from CaveStory.
+
+### Object Oriented
+
+A collection of assignments from the ObjecteOriented class at Univerisity of Colorado Denver. 
+
+[Object Oriented GitHub Link](https://github.com/ndore444/ObjectOriented)
+
+### SehnSucht
+
+A personally developed video game engine, drawing from LimeOats' game engine, and using assets from CaveStory. Currently will not run, due to lacking development in the enemies class. 
 
 [SehnSucht GitHub Link](https://github.com/ndore444/Sehnsucht)
+
+### 
+
