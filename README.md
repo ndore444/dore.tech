@@ -1,12 +1,11 @@
 ## Dore.tech
 --------------------------------------------------------
---------------------------------------------------------
 A Personal Domain Repository for code. 
 
 Look forward to new content updates! 
 
-## Useful Military Links:
 --------------------------------------------------------
+## Useful Military Links:
 
 [Military Email](https://web-cols04.mail.mil/owa)
 
@@ -18,5 +17,7 @@ Look forward to new content updates!
 
 [MyPay](https://mypay.dfas.mil/)
 
-## Code 
 --------------------------------------------------------
+## Code 
+
+
