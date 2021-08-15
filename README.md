@@ -28,13 +28,15 @@ function test() {
 
 ### Object Oriented
 
-A collection of assignments from the ObjecteOriented class at Univerisity of Colorado Denver. A couple good examples of larger scale C++ projects
+A collection of assignments from the ObjecteOriented class at UCD (Univerisity of Colorado Denver). A couple good examples of larger scale C++ projects
 
 [Object Oriented GitHub Link](https://github.com/ndore444/ObjectOriented)
 
 ### Data Structures
 
-Assignments from the Data Structures class 
+Assignments from the Data Structures class at UCD, a good collection of commonly used structures and databases. Examples include linked lists, stacks, and queues. 
+
+[DataStruct GitHub Link](https://github.com/ndore444/DataStructures)
 
 ### SehnSucht
 
@@ -42,5 +44,4 @@ A personally developed video game engine, drawing from LimeOats' game engine, an
 
 [SehnSucht GitHub Link](https://github.com/ndore444/Sehnsucht)
 
-# Doanes is a dummy
 
