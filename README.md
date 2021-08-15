@@ -34,7 +34,7 @@ A collection of assignments from the ObjecteOriented class at UCD (Univerisity o
 
 ### Data Structures
 
-Assignments from the Data Structures class at UCD, a good collection of commonly used structures and databases. Examples include linked lists, stacks, and queues. 
+Assignments from the C++ Data Structures class at UCD, a good collection of commonly used structures and databases. Examples include linked lists, stacks, and queues. 
 
 [DataStruct GitHub Link](https://github.com/ndore444/DataStructures)
 
