@@ -18,7 +18,7 @@ Look forward to new content updates!
 [MyPay](https://mypay.dfas.mil/)
 
 --------------------------------------------------------
-## Code 
+## GitHub Repositories
 
 ### Object Oriented
 
@@ -44,4 +44,4 @@ A personally developed video game engine, drawing from LimeOats' game engine, an
 
 [SehnSucht GitHub Link](https://github.com/ndore444/Sehnsucht)
 
-
+## Code Snippits
