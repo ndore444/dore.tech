@@ -47,4 +47,5 @@ A personally developed video game engine, drawing from LimeOats' game engine, an
 --------------------------------------------------------
 ## Code Snippits
 
+In this section you can expect to see snippets showcasing various skills and innovations.
 
