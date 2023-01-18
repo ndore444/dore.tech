@@ -17,6 +17,8 @@ Look forward to new content updates!
 
 [MyPay](https://mypay.dfas.mil/)
 
+[DS Login](https://pki.dmdc.osd.mil/identitymanagement/app/login)
+
 --------------------------------------------------------
 ## GitHub Repositories
 
