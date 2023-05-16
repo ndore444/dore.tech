@@ -1,5 +1,5 @@
 ## dore.tech
-A Personal Domain Repository for CSS and JS. 
+A Personal Domain. 
 Look forward to new updates! 
 
 
