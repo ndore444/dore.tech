@@ -42,7 +42,7 @@ Homework projects from the Assembly class at UCD, later homework is complex and 
 
 ### SehnSucht
 
-A personally developed video game engine, drawing from LimeOats' game engine, and using assets from CaveStory. Currently will not run, due to lacking development in the enemies class. 
+A personally developed video game engine, drawing from LimeOats' game engine, and using assets from CaveStory. Currently will not run, due to an issue in the enemies class. 
 
 [SehnSucht GitHub Link](https://github.com/ndore444/Sehnsucht)
 
