@@ -6,8 +6,9 @@ Look forward to new content updates!
 
 --------------------------------------------------------
 ## Useful Military Links:
+[New Military Email](https://webmail.apps.mil/)
 
-[Military Email](https://web-cols04.mail.mil/owa)
+[Old Military Email](https://web-cols04.mail.mil/owa) 
 
 [SRTS Tickets](https://army.deps.mil/army/cmds/usarc_88RSC_PER2/SRTS/default.aspx)
 
