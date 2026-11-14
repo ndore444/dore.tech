@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>nathanieldore.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+<!--Tabs-->    
+    <nav class="tabs" aria-label="main">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#toolbox">toolbox</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <main class ="no-numbers">
+
+<!--Page Header Title Section-->
+      <section id="title">
+        <div class="ln"><span class="prompt">$</span> <span class="type">whoami</span><span class="cursor cursor-typing" aria-hidden="true"></span></div>
+        <div class="ln"><h1 class="name reply">Nate Dore</h1></div>
+        <div class="ln"><span class="role reply">Developer</span></div>
+        <div class="ln"><span class="reply"><span class="prompt">$</span> <span class="cursor" aria-hidden="true"></span></span></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+      </section>
+
+<!--Read Me section-->
+      <section id="about">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span><span class="cmd">cat readme.md</span></div>
+        <div class="ln"># This page serves as a personal repository to showcase some of my</div>
+        <div class="ln"># personal work, and provide some useful links while allowing me to tinker.</div>
+        <div class="ln"># Expect new updates on this page, as I add more projects and information.</div>
+        <div class="gap"></div>
+      </section>
+
+<!--Toolbox Section-->
+      <section id="toolbox">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln grep"><span class="prompt">$</span><span class="cmd">cat toolbox.txt | grep -i</span><input id="filter" type="search" placeholder="type to filter" aria-label="Filter Links" autocomplete="off"></div>
+
+        <div class="group">
+          <div class="ln dim"># dev</div>
+          <div class="ln link"><a href="https://github.com/codespaces">codespaces</a><span class="dim">// Github Codespaces</span></div>
+        </div>
+
+        <div class="gap"></div>
+        <div class="group">
+          <div class="ln dim"># army</div>
+          <div class="ln link"><a href="https://client.wvd.azure.us/arm/webclient/index.html">Army RDP</a><span class="dim">// The Browser Ver. of the US Army Remote Desktop</span></div>
+          <div class="ln link"><a href="https://mypay.dfas.mil/">DFAS</a><span class="dim">// My Pay</span></div>
+          <div class="ln link"><a href="https://www.defensetravel.osd.mil/">DTS</a><span class="dim">// Defense Travel Suite</span></div>
+          <div class="ln link"><a href="https://smp.qtcm.com/">QTC</a><span class="dim">// Quick, Timely Care login page</span></div>
+        </div>
+
+        <div class="gap"></div>
+        <div class="group">
+          <div class="ln dim"># misc</div>
+          <div class="ln link"><a href="https://m365.cloud.microsoft/apps">Microsoft Office</a><span class="dim">// Microsoft Office Apps Page</span></div>
+        </div>
+
+
+        <div class="ln dim" id="no-matches" hidden>grep: no matches</div>
+
+        <div class="gap"></div>
+      </section>
+
+<!--Projects Section-->
+      <section id="projects">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span><span class="cmd">ls projects/</span></div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-one/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-two/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-three/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="gap"></div>
+      </section>
+
+<!--Contact Info Section-->      
+      <section id="contact">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span><span class="cmd">./contact.sh/</span></div>
+        <div class="ln">github=<a href="https://github.com/ndore444">github.com/ndore444</a></div>
+        <div class="ln">email=<a href="mailto:wmj4k57qnf@privaterelay.appleid.com">wmj4k57qnf@privaterelay.appleid.com</a></div>
+      </section>
+    </main>
+  </body>
+</html>
