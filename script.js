@@ -23,3 +23,25 @@ filterInput.addEventListener("input", () => {
 
     noMatches.hidden = total > 0;
 })
+
+const themePicker = document.getElementById("theme");
+const THEMES = ["python", "nord", "gruvbox", "tokyo", "dracula", "catppuccin"];
+
+function applyTheme(name)
+{
+    document.documentElement.setAttribute("data-theme", name);
+    themePicker.value = name;
+    try
+    {
+        localStorage.setItem("theme", name)
+    } catch (e) {}
+}
+
+themePicker.addEventListener("change", () => applyTheme(themePicker.value));
+
+let savedTheme = null;
+try
+{
+    savedTheme = localStorage.getItem("theme");
+} catch (e) {}
+themePicker.value = THEMES.includes(savedTheme) ? savedTheme : "python";

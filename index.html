@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--Title, description, favicon-->   
     <title>dore.tech</title>
+    <meta name="description" content="Personal website with useful links and showcasing some coding projects.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1b2b'/%3E%3Ctext x='4' y='23' font-family='monospace' font-size='18' font-weight='700' fill='%238fd694'%3E%24_%3C/text%3E%3C/svg%3E">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,6 +17,17 @@
     <link rel="stylesheet" href="style.css" />
 
     <script src="script.js" defer></script>
+
+    <script>
+      try
+      {
+        const saved = localStorage.getItem("theme");
+        if (["python", "nord", "gruvbox", "tokyo", "dracula", "catppuccin"].includes(saved))
+        {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      } catch (e) {}
+    </script>
   </head>
 
   <body>
@@ -22,6 +37,17 @@
       <a href="#projects">projects</a>
       <a href="#toolbox">toolbox</a>
       <a href="#contact">contact</a>
+
+      <label class="theme">theme
+        <select id="theme" aria-label="Color Theme">
+          <option value="python">python</option>
+          <option value="nord">nord</option>
+          <option value="gruvbox">gruvbox</option>
+          <option value="tokyo">tokyo night</option>
+          <option value="dracula">dracula</option>
+          <option value="catppuccin">catppuccin</option>
+        </select>
+      </label>
     </nav>
 
     <main class ="no-numbers">
@@ -33,7 +59,6 @@
         <div class="ln"><h1 class="name reply">Nate Dore</h1></div>
         <div class="ln"><span class="role reply">Developer</span></div>
         <div class="ln"><span class="reply"><span class="prompt">$</span> <span class="cursor" aria-hidden="true"></span></span></div>
-        <div class="gap"></div>
         <div class="gap"></div>
         <div class="gap"></div>
         <div class="gap"></div>

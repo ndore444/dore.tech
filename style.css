@@ -1,8 +1,10 @@
-:root
+:root,
+
+[data-theme="python"]
 {
   --bg:     #0f1b2b;
   --fg:     #dce6f2;
-  --dim:    #5f7391;
+  --dim:    #7385a1;
   --blue:   #6aa9dc;
   --yellow: #ffd43b;
   --green:  #8fd694;
@@ -10,6 +12,76 @@
   --line:   #20324a;
   --gutter: #34475f;
   --orange: #ffb454;
+}
+
+[data-theme="nord"]
+{
+  --bg: #2e3440;
+  --fg: #d8dee9;
+  --dim: #949eb2;
+  --blue: #81a1c1;
+  --yellow: #ebcb8b;
+  --green: #a3be8c;
+  --orange: #d9937f;
+  --panel: #272c36;
+  --line: #3b4252;
+  --gutter: #4c566a;
+}
+
+[data-theme="gruvbox"]
+{
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --dim: #9d8e7b;
+  --blue: #83a598;
+  --yellow: #fabd2f;
+  --green: #b8bb26;
+  --orange: #fe8019;
+  --panel: #1d2021;
+  --line: #3c3836;
+  --gutter: #504945;
+}
+
+[data-theme="tokyo"]
+{
+  --bg: #1a1b26;
+  --fg: #c0caf5;
+  --dim: #7a83ae;
+  --blue: #7aa2f7;
+  --yellow: #e0af68;
+  --green: #9ece6a;
+  --orange: #ff9e64;
+  --panel: #16161e;
+  --line: #2a2e45;
+  --gutter: #3b4261;
+}
+
+[data-theme="dracula"]
+{
+  --bg: #282a36;
+  --fg: #f8f8f2;
+  --dim: #8692b7;
+  --blue: #bd93f9;
+  --yellow: #f1fa8c;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --panel: #21222c;
+  --line: #44475a;
+  --gutter: #44475a;
+}
+
+[data-theme="catppuccin"]
+{
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --dim: #82879f;
+  --blue: #89b4fa;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --orange: #fab387;
+  --panel: #181825;
+  --line: #313244;
+  --gutter: #45475a;
 }
 
 html
@@ -114,6 +186,7 @@ html
 {
   position: sticky;
   top: 0;
+  z-index: 10;
   display: flex;
   overflow-x: auto;
   background: var(--panel);
@@ -307,3 +380,59 @@ a
     grid-template-columns: 1fr;
   }
 }
+
+.theme
+{
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-left: auto;
+  padding: .15rem .4rem;
+  cursor: pointer;
+}
+
+.theme select
+{
+  font: inherit;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: .15rem .4rem;
+  cursor: pointer;
+}
+
+@media (max-width: 640px)
+{
+  html
+  {
+    scroll-padding-top: 5.5rem;
+  }
+  .tabs
+  {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+  .tabs a
+  {
+    padding: .6rem .5rem;
+    font-size: .75rem;
+  }
+  .theme
+  {
+    flex: 1 0 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+    padding: .35rem .75rem;
+    border-top: 1px solid var(--line);
+  }
+}
+
+a:focus-visible,
+select:focus-visible
+{
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+
