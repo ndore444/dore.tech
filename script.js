@@ -25,7 +25,7 @@ filterInput.addEventListener("input", () => {
 })
 
 const themePicker = document.getElementById("theme");
-const THEMES = ["python", "nord", "gruvbox", "tokyo", "dracula", "catppuccin"];
+const THEMES = ["python", "espresso", "gruvbox", "dracula", "solarized", "latte"];
 
 function applyTheme(name)
 {
